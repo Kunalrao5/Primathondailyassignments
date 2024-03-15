@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations and Key Frames</title>
+    <style>
+        div{
+            font-size: 50px;
+            color: blue;
+            font-weight: bolder;
+            position: relative;
+            animation: goodnight 5s infinite;
+        }
+        @keyframes goodnight{
+            0% {left:0px;top: 0px; color: blue;}
+            25%{left: 150px;top: 150px;color: chartreuse;}
+            50% { left: 300px; top:300px ;color: goldenrod;}
+            100% { left:450px ;top: 450px; color: brown;}
+        }
+    </style>
+</head>
+<body>
+    <div>Good Night &#x1F634</div>
+</body>
+</html>
